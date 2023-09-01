@@ -1,0 +1,31 @@
+.container {
+  padding: 5px 15px;
+  height: 40px;
+  width: 442px;
+  background: linear-gradient(135deg, rgba(15, 85, 232, 0.1) 0%, rgba(157, 223, 243, 0.1) 100%);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 40px;
+
+  display: flex;
+  flex-direction: row;
+
+  input {
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: inherit;
+    color: #fff;
+    padding: 0;
+    flex-grow: 1;
+  }
+
+  .prefix {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+
+}

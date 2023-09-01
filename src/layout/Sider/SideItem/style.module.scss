@@ -1,0 +1,37 @@
+.menuItem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+
+  height: 56px;
+
+  color: rgba(235, 235, 245, 0.6);
+
+  svg {
+    fill: #EBEBF5;
+    fill-opacity: 0.6;
+  }
+}
+
+.menuItem:hover {
+
+  color: #fff;
+
+  svg {
+    fill: #fff;
+    fill-opacity: 1;
+  }
+}
+
+.active {
+
+  color: #fff;
+  background: radial-gradient(50% 128.57% at 50% -36.61%, #8015A7 0%, rgba(97, 54, 144, 0) 100%);
+
+  svg {
+    fill: #fff;
+    fill-opacity: 1;
+  }
+
+}

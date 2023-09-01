@@ -1,0 +1,25 @@
+.container {
+  height: 100vh;
+  background: linear-gradient(180deg, #2B2F53 3.16%, #1D1C34 36.05%);
+
+  .header {
+    height: 56px;
+    //background-color: #8015A7;
+  }
+
+  .body {
+
+
+    .sider {
+      width: 20vw;
+      background: linear-gradient(168.44deg, #2E335A 1.62%, #1C1B33 95.72%);
+      overflow: scroll;
+    }
+
+    .main {
+      width: 80vw;
+      overflow: scroll;
+    }
+
+  }
+}
